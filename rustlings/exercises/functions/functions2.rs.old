@@ -1,0 +1,17 @@
+// functions2.rs
+//
+// Execute `rustlings hint functions2` or use the `hint` watch subcommand for a
+// hint.
+
+
+fn main() {
+    call_me(3);
+}
+
+const num: u32 = 5;
+
+fn call_me(num_var: u32) {
+    for i in 0..num_var {
+        println!("Ring! Call number {}", i + 1);
+    }
+}
